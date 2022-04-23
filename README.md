@@ -1,4 +1,4 @@
-## String
+# String
 
 ```java
    public int hashCode() {
@@ -14,10 +14,12 @@
         return h;
     }
 ```
+
 相同字符串得到的Hash值应该是相同的
 
-####Hash碰撞
-int型的值取值范围为Integer.MIN_VALUE(-2147483648)～Integer.MAX_VALUE(2147483647)，所以如果字符串比较长，计算的数值就可能超出Integer.MAX_VALUE，造成数值溢出，值变成负数
-产生碰撞的原因：
- 1. hashCode使用不同的算法产生碰撞不可避免
- 2. int值的限制
+#### Hash碰撞 int型的值取值范围为Integer.MIN\_VALUE(-2147483648)
+
+Integer.MAX\_VALUE(2147483647)，所以如果字符串比较长，计算的数值就可能超出Integer.MAX\_VALUE，造成数值溢出，值变成负数 产生碰撞的原因：
+
+1. hashCode使用不同的算法产生碰撞不可避免
+2. int值的限制
