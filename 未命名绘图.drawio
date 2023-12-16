@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-16T19:05:58.871Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="I46CYLS5sgItiAgUWrqA" version="22.1.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-16T19:10:17.725Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="2p3EWRt8oh1-5SQFL7G6" version="22.1.11" type="github" pages="2">
   <diagram name="第 1 页" id="q3rqq_tlZBTfVZw5ytyp">
     <mxGraphModel dx="989" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,7 +73,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-hUGl8D-cqG5Feyxbdm5" name="第 2 页">
-    <mxGraphModel dx="683" dy="376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -85,24 +85,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6R62ox4275ZdyTUQAT2P-1" value="竞争获取锁失败" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="110" width="120" height="60" as="geometry" />
+        <mxCell id="6R62ox4275ZdyTUQAT2P-1" value="竞争锁失败" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6R62ox4275ZdyTUQAT2P-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6R62ox4275ZdyTUQAT2P-2" target="6R62ox4275ZdyTUQAT2P-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6R62ox4275ZdyTUQAT2P-13" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6R62ox4275ZdyTUQAT2P-8">
-          <mxGeometry x="-0.4933" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6R62ox4275ZdyTUQAT2P-16" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6R62ox4275ZdyTUQAT2P-8">
-          <mxGeometry x="-0.5433" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="6R62ox4275ZdyTUQAT2P-2" value="订阅&lt;br&gt;redisson_lock__channel:{lockKey}频道" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="230" width="120" height="60" as="geometry" />
+          <mxGeometry x="210" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6R62ox4275ZdyTUQAT2P-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6R62ox4275ZdyTUQAT2P-18" target="6R62ox4275ZdyTUQAT2P-5">
           <mxGeometry relative="1" as="geometry">
@@ -134,6 +124,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="6R62ox4275ZdyTUQAT2P-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6R62ox4275ZdyTUQAT2P-4" target="6R62ox4275ZdyTUQAT2P-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6R62ox4275ZdyTUQAT2P-27" value="等待超时，锁获取失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6R62ox4275ZdyTUQAT2P-24">
+          <mxGeometry x="-0.2442" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="6R62ox4275ZdyTUQAT2P-4" value="检查等待超时" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="390" width="140" height="80" as="geometry" />
         </mxCell>
@@ -145,29 +143,47 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6R62ox4275ZdyTUQAT2P-5" value="检查等待超时" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="700" width="140" height="80" as="geometry" />
+        <mxCell id="6R62ox4275ZdyTUQAT2P-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6R62ox4275ZdyTUQAT2P-5" target="6R62ox4275ZdyTUQAT2P-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6R62ox4275ZdyTUQAT2P-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6R62ox4275ZdyTUQAT2P-6" target="6R62ox4275ZdyTUQAT2P-18">
+        <mxCell id="6R62ox4275ZdyTUQAT2P-28" value="等待超时，锁获取失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6R62ox4275ZdyTUQAT2P-26">
+          <mxGeometry x="-0.6792" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6R62ox4275ZdyTUQAT2P-5" value="检查等待超时" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="680" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6R62ox4275ZdyTUQAT2P-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6R62ox4275ZdyTUQAT2P-6" target="6R62ox4275ZdyTUQAT2P-18">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="210" y="570" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="100" y="890" />
+              <mxPoint x="100" y="860" />
               <mxPoint x="100" y="570" />
-              <mxPoint x="230" y="570" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6R62ox4275ZdyTUQAT2P-22" value="1. 超过锁的剩余过期时间&lt;br&gt;2. 超过锁的剩余等待时间&lt;br&gt;3. 收到频道的锁释放消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6R62ox4275ZdyTUQAT2P-12">
+        <mxCell id="6R62ox4275ZdyTUQAT2P-22" value="&lt;div style=&quot;text-align: justify;&quot;&gt;1. 超过锁的剩余过期时间&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;2. 超过锁的剩余等待时间&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;3. 收到频道发布的锁释放消息&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6R62ox4275ZdyTUQAT2P-12">
           <mxGeometry x="-0.334" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6R62ox4275ZdyTUQAT2P-6" value="阻塞等待" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="860" width="120" height="60" as="geometry" />
+          <mxGeometry x="210" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6R62ox4275ZdyTUQAT2P-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6R62ox4275ZdyTUQAT2P-18" target="6R62ox4275ZdyTUQAT2P-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6R62ox4275ZdyTUQAT2P-29" value="获取锁成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6R62ox4275ZdyTUQAT2P-25">
+          <mxGeometry x="-0.6731" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="6R62ox4275ZdyTUQAT2P-18" value="尝试竞争锁" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="530" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6R62ox4275ZdyTUQAT2P-23" value="返回" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="400" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
