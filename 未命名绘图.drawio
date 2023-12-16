@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-16T19:12:41.837Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="W1t03hq3sM9uxdej0erG" version="22.1.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-16T19:13:17.311Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="FJTwW3f8HXueHnayO1GP" version="22.1.11" type="github" pages="2">
   <diagram name="第 1 页" id="q3rqq_tlZBTfVZw5ytyp">
     <mxGraphModel dx="989" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,7 +73,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-hUGl8D-cqG5Feyxbdm5" name="第 2 页">
-    <mxGraphModel dx="819" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -92,7 +92,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6R62ox4275ZdyTUQAT2P-2" value="订阅&lt;br&gt;redisson_lock__channel:{lockKey}频道" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#8dcdf1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="175" y="270" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6R62ox4275ZdyTUQAT2P-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6R62ox4275ZdyTUQAT2P-18" target="6R62ox4275ZdyTUQAT2P-5">
           <mxGeometry relative="1" as="geometry">
