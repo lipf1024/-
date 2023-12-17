@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-17T08:32:55.235Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="RqYr5PPKJSEKjRAdB-a-" version="22.1.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-17T08:36:21.441Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="N9bDFs_GvTTc1ZnSblMb" version="22.1.11" type="github" pages="2">
   <diagram name="第 1 页" id="q3rqq_tlZBTfVZw5ytyp">
     <mxGraphModel dx="989" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,7 +73,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-hUGl8D-cqG5Feyxbdm5" name="第 2 页">
-    <mxGraphModel dx="1510" dy="376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -91,9 +91,9 @@
         <mxCell id="6R62ox4275ZdyTUQAT2P-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6R62ox4275ZdyTUQAT2P-2" target="6R62ox4275ZdyTUQAT2P-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6R62ox4275ZdyTUQAT2P-30" value="在JVM为当前锁创建&lt;div class=&quot;lake-content&quot;&gt;Semaphore（0）&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="6R62ox4275ZdyTUQAT2P-8">
+        <mxCell id="6R62ox4275ZdyTUQAT2P-30" value="&lt;div style=&quot;text-align: justify;&quot;&gt;在JVM为当前锁创建&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot; class=&quot;lake-content&quot;&gt;Semaphore（0）&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot; class=&quot;lake-content&quot;&gt;来协调多个线程间的锁竞争&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="6R62ox4275ZdyTUQAT2P-8">
           <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
-            <mxPoint x="-61" as="offset" />
+            <mxPoint x="79" y="6" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6R62ox4275ZdyTUQAT2P-2" value="订阅&lt;br&gt;redisson_lock__channel:{lockKey}频道" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#8dcdf1;" vertex="1" parent="1">
@@ -104,9 +104,9 @@
             <mxPoint x="270" y="600.0000000000001" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6R62ox4275ZdyTUQAT2P-19" value="获取失败&lt;br&gt;拿到当前锁的TTL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6R62ox4275ZdyTUQAT2P-10">
+        <mxCell id="6R62ox4275ZdyTUQAT2P-19" value="获取失败&lt;br&gt;拿到当前锁的TTL" style="edgeLabel;html=1;align=right;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6R62ox4275ZdyTUQAT2P-10">
           <mxGeometry x="-0.2794" y="-1" relative="1" as="geometry">
-            <mxPoint x="-49" y="4" as="offset" />
+            <mxPoint x="-9" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6R62ox4275ZdyTUQAT2P-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6R62ox4275ZdyTUQAT2P-4" target="6R62ox4275ZdyTUQAT2P-18">
@@ -133,9 +133,9 @@
         <mxCell id="6R62ox4275ZdyTUQAT2P-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6R62ox4275ZdyTUQAT2P-5" target="6R62ox4275ZdyTUQAT2P-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6R62ox4275ZdyTUQAT2P-21" value="尚未超时" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6R62ox4275ZdyTUQAT2P-11">
+        <mxCell id="6R62ox4275ZdyTUQAT2P-21" value="尚未超时&lt;br&gt;Semaphore.tryAcquire(timeout)" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6R62ox4275ZdyTUQAT2P-11">
           <mxGeometry x="-0.226" y="-1" relative="1" as="geometry">
-            <mxPoint x="-29" as="offset" />
+            <mxPoint x="11" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6R62ox4275ZdyTUQAT2P-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6R62ox4275ZdyTUQAT2P-5" target="6R62ox4275ZdyTUQAT2P-23">
@@ -158,13 +158,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6R62ox4275ZdyTUQAT2P-22" value="&lt;div style=&quot;text-align: justify;&quot;&gt;1. 超过锁的剩余过期时间&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;2. 超过锁的剩余等待时间&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;3. 收到频道发布的锁释放消息&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6R62ox4275ZdyTUQAT2P-12">
+        <mxCell id="6R62ox4275ZdyTUQAT2P-22" value="&lt;div style=&quot;text-align: justify;&quot;&gt;1. 超过锁的剩余过期时间&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;2. 超过锁的剩余等待时间&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;3. 收到频道发布的锁释放消息&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6R62ox4275ZdyTUQAT2P-12">
           <mxGeometry x="-0.334" relative="1" as="geometry">
             <mxPoint x="-80" y="-114" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6R62ox4275ZdyTUQAT2P-6" value="阻塞等待&lt;br&gt;&lt;div class=&quot;lake-content&quot;&gt;Semaphore.tryAcquire(timeout)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#8dcdf1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="830" width="180" height="60" as="geometry" />
+        <mxCell id="6R62ox4275ZdyTUQAT2P-6" value="阻塞等待&lt;br&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#8dcdf1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="830" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6R62ox4275ZdyTUQAT2P-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6R62ox4275ZdyTUQAT2P-18" target="6R62ox4275ZdyTUQAT2P-23">
           <mxGeometry relative="1" as="geometry" />
