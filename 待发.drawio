@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-20T09:12:24.617Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="8gqGYdGwJaQCiJEhrg_y" version="22.1.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-20T09:12:31.692Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Rsvk2k1ZRu9_lkvcuTsQ" version="22.1.11" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="链路">
     <mxGraphModel dx="1434" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -165,7 +165,7 @@
         <mxCell id="uAMjgfDNeoo0b0KcYJDW-2" value="报价单关联所有为在途状态的装车单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="-540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uAMjgfDNeoo0b0KcYJDW-5" value="集散地/代办到仓的待收" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uAMjgfDNeoo0b0KcYJDW-5" value="集散地/代办到仓的待收" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="474" y="-390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uAMjgfDNeoo0b0KcYJDW-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uAMjgfDNeoo0b0KcYJDW-10" target="uAMjgfDNeoo0b0KcYJDW-5">
