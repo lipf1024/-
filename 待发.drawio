@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-20T09:16:17.801Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="87B0f4OJPKpo01jdc_Qw" version="22.1.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-20T09:20:46.784Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Ep72UGktmwaBmyW1HvRo" version="22.1.11" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="链路">
     <mxGraphModel dx="1434" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -35,7 +35,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eNyvPat1FonC8B1RWDVC" name="流程">
-    <mxGraphModel dx="1687" dy="2110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="1836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,21 +55,15 @@
             <mxPoint x="2" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sgPRRKc2RGKROiKRZ00a-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sgPRRKc2RGKROiKRZ00a-3" target="sgPRRKc2RGKROiKRZ00a-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sgPRRKc2RGKROiKRZ00a-19" value="不发待收&amp;amp;待发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sgPRRKc2RGKROiKRZ00a-18">
-          <mxGeometry x="-0.0571" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="sgPRRKc2RGKROiKRZ00a-3" value="采买完成" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="315" y="-920" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sgPRRKc2RGKROiKRZ00a-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sgPRRKc2RGKROiKRZ00a-10" target="sgPRRKc2RGKROiKRZ00a-11">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="sgPRRKc2RGKROiKRZ00a-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sgPRRKc2RGKROiKRZ00a-10" target="uAMjgfDNeoo0b0KcYJDW-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="-664" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="sgPRRKc2RGKROiKRZ00a-15" value="仓B前是仓A的场景&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;b. 触发仓A-&amp;gt;仓B发待收&lt;/font&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sgPRRKc2RGKROiKRZ00a-13">
+        <mxCell id="sgPRRKc2RGKROiKRZ00a-15" value="仓B前是仓A的场景" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sgPRRKc2RGKROiKRZ00a-13">
           <mxGeometry x="-0.2097" y="1" relative="1" as="geometry">
             <mxPoint x="-96" y="-21" as="offset" />
           </mxGeometry>
@@ -93,17 +87,6 @@
         <mxCell id="sgPRRKc2RGKROiKRZ00a-10" value="判断仓前节点类型" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="307" y="-770" width="146" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sgPRRKc2RGKROiKRZ00a-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sgPRRKc2RGKROiKRZ00a-11" target="sgPRRKc2RGKROiKRZ00a-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sgPRRKc2RGKROiKRZ00a-22" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sgPRRKc2RGKROiKRZ00a-21">
-          <mxGeometry x="-0.2955" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sgPRRKc2RGKROiKRZ00a-11" value="仓A已有实发回传" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="-664" width="130" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="uAMjgfDNeoo0b0KcYJDW-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sgPRRKc2RGKROiKRZ00a-12" target="uAMjgfDNeoo0b0KcYJDW-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -124,29 +107,6 @@
         </mxCell>
         <mxCell id="sgPRRKc2RGKROiKRZ00a-12" value="集散地/代办是否分批" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="-664" width="130" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="sgPRRKc2RGKROiKRZ00a-17" value="返回" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="-910" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="sgPRRKc2RGKROiKRZ00a-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sgPRRKc2RGKROiKRZ00a-20" target="sgPRRKc2RGKROiKRZ00a-24">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sgPRRKc2RGKROiKRZ00a-28" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sgPRRKc2RGKROiKRZ00a-25">
-          <mxGeometry x="-0.1722" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sgPRRKc2RGKROiKRZ00a-20" value="仓B的NT单号已经回流" style="rhombus;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="-540" width="130" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="sgPRRKc2RGKROiKRZ00a-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sgPRRKc2RGKROiKRZ00a-24" target="sgPRRKc2RGKROiKRZ00a-26">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sgPRRKc2RGKROiKRZ00a-24" value="生成待发单号及待发信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="145" y="-400" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="sgPRRKc2RGKROiKRZ00a-26" value="待发" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="145" y="-290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uAMjgfDNeoo0b0KcYJDW-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uAMjgfDNeoo0b0KcYJDW-2" target="uAMjgfDNeoo0b0KcYJDW-5">
           <mxGeometry relative="1" as="geometry">
@@ -278,6 +238,20 @@
         </mxCell>
         <mxCell id="uAMjgfDNeoo0b0KcYJDW-47" value="仓到门店发送待发" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1090" y="-340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uAMjgfDNeoo0b0KcYJDW-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uAMjgfDNeoo0b0KcYJDW-49" target="uAMjgfDNeoo0b0KcYJDW-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uAMjgfDNeoo0b0KcYJDW-53" value="触发仓A-&amp;gt;仓B发待收" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uAMjgfDNeoo0b0KcYJDW-52">
+          <mxGeometry x="-0.156" y="2" relative="1" as="geometry">
+            <mxPoint x="53" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uAMjgfDNeoo0b0KcYJDW-49" value="查询仓A的实发回传记录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="-600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uAMjgfDNeoo0b0KcYJDW-50" value="仓A到仓B发送待收" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="145" y="-390" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
