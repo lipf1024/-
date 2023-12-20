@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-20T09:21:07.126Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="zUjaJA3blNpXP4OhfdKL" version="22.1.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-20T09:21:28.524Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="yxuNhB7ZZ3LCTmEG5a0u" version="22.1.11" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="链路">
     <mxGraphModel dx="1434" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -63,7 +63,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sgPRRKc2RGKROiKRZ00a-3" value="采买完成" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sgPRRKc2RGKROiKRZ00a-3" value="采买完成" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="315" y="-920" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sgPRRKc2RGKROiKRZ00a-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sgPRRKc2RGKROiKRZ00a-10" target="uAMjgfDNeoo0b0KcYJDW-49">
@@ -92,7 +92,7 @@
         <mxCell id="uAMjgfDNeoo0b0KcYJDW-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sgPRRKc2RGKROiKRZ00a-10" target="uAMjgfDNeoo0b0KcYJDW-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sgPRRKc2RGKROiKRZ00a-10" value="判断仓前节点类型" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sgPRRKc2RGKROiKRZ00a-10" value="判断仓前节点类型" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="307" y="-770" width="146" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uAMjgfDNeoo0b0KcYJDW-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sgPRRKc2RGKROiKRZ00a-12" target="uAMjgfDNeoo0b0KcYJDW-2">
@@ -113,7 +113,7 @@
             <mxPoint x="-40" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sgPRRKc2RGKROiKRZ00a-12" value="集散地/代办是否分批" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sgPRRKc2RGKROiKRZ00a-12" value="集散地/代办是否分批" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="490" y="-664" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sgPRRKc2RGKROiKRZ00a-17" value="返回" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
@@ -152,7 +152,7 @@
             <mxPoint x="-2" y="12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uAMjgfDNeoo0b0KcYJDW-10" value="仓A的收货作业子单状态全部为待作业" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uAMjgfDNeoo0b0KcYJDW-10" value="仓A的收货作业子单状态全部为待作业" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="620" y="-550" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uAMjgfDNeoo0b0KcYJDW-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uAMjgfDNeoo0b0KcYJDW-20" target="uAMjgfDNeoo0b0KcYJDW-30">
@@ -178,7 +178,7 @@
             <mxPoint x="70" y="140" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uAMjgfDNeoo0b0KcYJDW-20" value="判断仓后节点类型" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uAMjgfDNeoo0b0KcYJDW-20" value="判断仓后节点类型" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="920" y="-700" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uAMjgfDNeoo0b0KcYJDW-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uAMjgfDNeoo0b0KcYJDW-30" target="uAMjgfDNeoo0b0KcYJDW-32">
@@ -201,7 +201,7 @@
             <mxPoint x="-31" y="11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uAMjgfDNeoo0b0KcYJDW-30" value="集散地/代办是否分批" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uAMjgfDNeoo0b0KcYJDW-30" value="集散地/代办是否分批" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="790" y="-510" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uAMjgfDNeoo0b0KcYJDW-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uAMjgfDNeoo0b0KcYJDW-32" target="uAMjgfDNeoo0b0KcYJDW-37">
@@ -217,7 +217,7 @@
             <mxPoint x="5" y="11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uAMjgfDNeoo0b0KcYJDW-32" value="集散地/代办有实发&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;(或全采0场景)&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uAMjgfDNeoo0b0KcYJDW-32" value="集散地/代办有实发&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;(或全采0场景)&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="660" y="-390" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uAMjgfDNeoo0b0KcYJDW-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uAMjgfDNeoo0b0KcYJDW-35" target="uAMjgfDNeoo0b0KcYJDW-37">
@@ -235,7 +235,7 @@
             <mxPoint x="-4" y="9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uAMjgfDNeoo0b0KcYJDW-35" value="集散地/代办作业完成&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;(或全采0场景)&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uAMjgfDNeoo0b0KcYJDW-35" value="集散地/代办作业完成&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;(或全采0场景)&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="890" y="-390" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uAMjgfDNeoo0b0KcYJDW-37" value="仓A到仓B发送待发" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
