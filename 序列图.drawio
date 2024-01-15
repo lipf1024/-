@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2024-01-12T06:55:10.537Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.18" etag="mtDnsNAvoaRcO-ZQufpZ" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-15T08:16:04.902Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="zHR1oh8kRG8K_7k1n5hk" version="22.1.18" type="github">
   <diagram name="第 1 页" id="0yU_T4LZ4_n7Zgo6Nfqy">
-    <mxGraphModel>
+    <mxGraphModel dx="465" dy="222" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="o5oTMSr_ZGBs3PvQjFC4-1" value="APP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="60" y="70" width="100" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="o5oTMSr_ZGBs3PvQjFC4-2" value="小程序" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="180" y="70" width="100" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="o5oTMSr_ZGBs3PvQjFC4-3" value="Ru Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="340" y="70" width="100" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="o5oTMSr_ZGBs3PvQjFC4-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="o5oTMSr_ZGBs3PvQjFC4-3">
+          <mxGeometry x="45" y="80" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="o5oTMSr_ZGBs3PvQjFC4-18" value="修改作业单实发量" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;exitX=1.028;exitY=0.111;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="o5oTMSr_ZGBs3PvQjFC4-10" parent="o5oTMSr_ZGBs3PvQjFC4-3" source="o5oTMSr_ZGBs3PvQjFC4-10">
+          <mxGeometry x="-0.6602" y="11" relative="1" as="geometry">
+            <mxPoint x="59" y="90" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="89" y="91" />
+              <mxPoint x="89" y="110" />
+            </Array>
+            <mxPoint x="64" y="120" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o5oTMSr_ZGBs3PvQjFC4-4" value="Consumer Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="470" y="70" width="100" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="o5oTMSr_ZGBs3PvQjFC4-5" value="Task Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="590" y="70" width="100" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="o5oTMSr_ZGBs3PvQjFC4-6" value="WMS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="740" y="70" width="100" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="o5oTMSr_ZGBs3PvQjFC4-7" value="海鼎" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="890" y="70" width="100" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="o5oTMSr_ZGBs3PvQjFC4-13" value="扫码发车" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1" source="o5oTMSr_ZGBs3PvQjFC4-1" target="o5oTMSr_ZGBs3PvQjFC4-10">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-110" y="160" as="sourcePoint" />
+            <mxPoint x="50" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="155" />
+              <mxPoint x="190" y="155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o5oTMSr_ZGBs3PvQjFC4-14" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="o5oTMSr_ZGBs3PvQjFC4-13">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
