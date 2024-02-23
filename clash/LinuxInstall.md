@@ -5,7 +5,7 @@ mv clash-linux-amd64-v1.11.4 clash #重命名
 chmod u+x clash #赋权
 ./clash # 执行一次初始化
 ```
-下载Country.mmdb
+- 下载Country.mmdb
 ```
 cd /root/.config/clash
 wget https://github.com/Dreamacro/maxmind-geoip/releases/download/20220612/Country.mmdb
