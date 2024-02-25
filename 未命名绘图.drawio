@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-25T17:34:32.287Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="khCtCLMyJrOAAwXc1pJm" version="23.1.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-02-25T17:35:13.095Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="CxLW8qWy0BNzDygJE81x" version="23.1.6" type="github" pages="4">
   <diagram id="-hUGl8D-cqG5Feyxbdm5" name="自旋重试">
     <mxGraphModel dx="2261" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -378,10 +378,10 @@
         <mxCell id="DNLA1ruqWUX1AWbtC06--15" value="写会结果" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="790" width="190" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DNLA1ruqWUX1AWbtC06--16" value="执行成功" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DNLA1ruqWUX1AWbtC06--16" value="写回成功，提交事务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="800" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DNLA1ruqWUX1AWbtC06--17" value="执行失败，事务回滚" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DNLA1ruqWUX1AWbtC06--17" value="写回失败，事务回滚" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DNLA1ruqWUX1AWbtC06--24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DNLA1ruqWUX1AWbtC06--23" target="DNLA1ruqWUX1AWbtC06--1">
